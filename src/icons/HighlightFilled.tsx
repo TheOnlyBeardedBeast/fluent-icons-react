@@ -1,0 +1,21 @@
+import * as React from 'react';
+import IconProps from '../IconProps';
+
+export const HighlightFilled: React.FC<IconProps> = ({ size, color }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 20 20"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="ic_fluent_highlight_20_filled" fill={color} fill-rule="nonzero">
+        <path
+          d="M4,2.5 C4,2.22386 3.77614,2 3.5,2 C3.22386,2 3,2.22386 3,2.5 L3,6.5 C3,7.15311 3.4174,7.70873 4,7.91465 L4,9 C4,10.1046 4.89543,11 6,11 L6,17.5 C6,17.6733 6.08973,17.8342 6.23713,17.9253 C6.38454,18.0164 6.56861,18.0247 6.72361,17.9472 L12.8944,14.8618 C13.572,14.523 14,13.8305 14,13.0729 L14,11 C15.1046,11 16,10.1046 16,9 L16,7.91465 C16.5826,7.70873 17,7.15311 17,6.5 L17,2.5 C17,2.22386 16.7761,2 16.5,2 C16.2239,2 16,2.22386 16,2.5 L16,6.5 C16,6.77614 15.7761,7 15.5,7 L4.5,7 C4.22386,7 4,6.77614 4,6.5 L4,2.5 Z M5,9 L5,8 L15,8 L15,9 C15,9.55228 14.5523,10 14,10 L6,10 C5.44772,10 5,9.55228 5,9 Z"
+          id="Shape"
+        ></path>
+      </g>
+    </g>
+  </svg>
+);

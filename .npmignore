@@ -1,0 +1,5 @@
+node_modules
+src
+.prettierrc
+replacer.js
+tsconfig.json
